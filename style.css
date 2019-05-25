@@ -1,0 +1,40 @@
+    body {
+        background-color: #C2C2C2;
+        font-family: Georgia, 'Times New Roman', Times, Times New Roman, serif;
+        min-height: 100vh;
+        position: relative;
+        margin: 0;
+    }
+
+    .main-navbar {
+        background-color: white;
+    }
+
+    .nav-name {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        font-size: 26px;
+    }
+
+    .btn {
+        background-color: #4aaaa5;
+        border-color: #4aaaa5
+    }
+
+    .title {
+        color: #4aaaa5;
+    }
+
+    footer {
+        text-align: center;
+        height: 70px;
+        width: 100%;
+        background-color: rgb(53, 50, 50);
+        color: white;
+        border-top: 5px solid #4aaaa5;
+    }
+
+    label {
+        /* font-weight: 300; */
+        font-size: 20px;
+    }
