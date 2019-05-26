@@ -5,9 +5,22 @@
         position: relative;
         margin: 0;
     }
+    p {
+            color: rgb(126, 126, 126);
+            line-height: 1.5;
+            font-size: 18px
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
 
     .main-navbar {
         background-color: white;
+    }
+    .main-content {
+        min-height: calc(100vh - 70px);
     }
 
     .nav-name {
@@ -21,6 +34,17 @@
         border-color: #4aaaa5
     }
 
+    .card-title {
+        position: absolute;
+        bottom: 15px;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        font-size: 26px;
+        background-color: #4aaaa5;
+
+    }
+
     .title {
         color: #4aaaa5;
     }
@@ -32,9 +56,16 @@
         background-color: rgb(53, 50, 50);
         color: white;
         border-top: 5px solid #4aaaa5;
+        margin-top: 5%;
     }
 
     label {
         /* font-weight: 300; */
         font-size: 20px;
+    }
+
+    @media screen and (max-height: 980px) {
+        .container  {
+            /* margin-left: 100px; */
+        }
     }
