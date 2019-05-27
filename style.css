@@ -5,16 +5,27 @@
         position: relative;
         margin: 0;
     }
+
     p {
             color: rgb(126, 126, 126);
             line-height: 1.5;
             font-size: 18px
     }
 
-    /* img {
-        width: 200px;
-        height: 200px;
-    } */
+    label {
+        /* font-weight: 300; */
+        font-size: 20px;
+    }
+
+    footer {
+        text-align: center;
+        height: 70px;
+        width: 100%;
+        background-color: rgb(53, 50, 50);
+        color: white;
+        border-top: 5px solid #4aaaa5;
+        margin-top: 5%;
+    }
 
     .main-navbar {
         background-color: white;
@@ -49,21 +60,3 @@
         color: #4aaaa5;
     }
 
-    footer {
-        text-align: center;
-        height: 70px;
-        width: 100%;
-        background-color: rgb(53, 50, 50);
-        color: white;
-        border-top: 5px solid #4aaaa5;
-        margin-top: 5%;
-    }
-
-    label {
-        /* font-weight: 300; */
-        font-size: 20px;
-    }
-
-    @media screen and (max-height: 576px) {
-
-    }
