@@ -11,10 +11,10 @@
             font-size: 18px
     }
 
-    img {
+    /* img {
         width: 200px;
         height: 200px;
-    }
+    } */
 
     .main-navbar {
         background-color: white;
@@ -64,8 +64,6 @@
         font-size: 20px;
     }
 
-    @media screen and (max-height: 980px) {
-        .container  {
-            /* margin-left: 100px; */
-        }
+    @media screen and (max-height: 576px) {
+
     }
